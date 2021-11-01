@@ -19,7 +19,7 @@ const Home: NextPage = () => {
 
         <p className={styles.description}>
           Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          <code className={styles.code}>pages/index.tsx</code>
         </p>
 
         <div className={styles.grid}>
@@ -61,7 +61,7 @@ const Home: NextPage = () => {
         >
           Powered by{' '}
           <span className={styles.logo}>
-            <img src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </footer>
