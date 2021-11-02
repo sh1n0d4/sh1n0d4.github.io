@@ -6,6 +6,8 @@ serve -s docs
 git checkout gh-pages
 git merge main
 npm run build
+
+npm run dev
 ```
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
